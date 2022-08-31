@@ -1,0 +1,17 @@
+output "Calculator!\n";
+input "Enter first number: ";
+
+let a = 0;
+tonum;
+pop a;
+push a;
+input "Enter second number: ";
+let b = 0;
+tonum;
+pop b;
+push b;
+
+add;
+output a; output " + "; output b; output " = ";
+pop a;
+output a; output "\n";
