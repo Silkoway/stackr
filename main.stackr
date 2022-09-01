@@ -1,17 +1,19 @@
-output "Calculator!\n";
-input "Enter first number: ";
+input "";
+strsplit;
+let p = 0;
+pop p;
+reverse;
 
-let a = 0;
-tonum;
-pop a;
-push a;
-input "Enter second number: ";
-let b = 0;
-tonum;
-pop b;
-push b;
-
-add;
-output a; output " + "; output b; output " = ";
-pop a;
-output a; output "\n";
+.section loop
+push 1;
+push p;
+sub;
+pop p;
+let t = "";
+pop t;
+output t;
+push 0;
+push p;
+grequ;
+ifjmp loop;
+end;
